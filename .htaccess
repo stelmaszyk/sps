@@ -9,5 +9,5 @@ RewriteRule EPPO-spotters spotters.html
 RewriteRule kim-jestesmy kimjestesmy.html
 RewriteRule galeria galeria.html
 RewriteRule kontakt kontakt.html
-RewriteRule dolacz-do-nas dolaczdonas.html
+RewriteRule dolaczdonas dolaczdonas.html
 RewriteRule czlonkostwo czlonkostwo.html

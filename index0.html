@@ -31,7 +31,7 @@
  <div id="container">
 
   <div class="rectangle1">
-   <div id="logo"><a href="index.html" class="tilelink2"><Br>Formularz kontaktowy: <br>Poznan Spotters</Br></a></div>
+   <div id="logo"><a href="index.html" class="tilelink2"><Br>Poznan Spotters</Br></a></div>
    <div id="zegar"></div>
    <div style="clear: both"></div>
   </div>
@@ -49,27 +49,59 @@
   <div class="tile2"><a href="galeria.html" class="tilelink"><i class="icon-picture"></i><Br>Galeria</Br></div></a>
   <div class="tile3"><a href="kontakt.html" class="tilelink"><i class="icon-mail-alt"></i><Br>Skontaktuj sie z nami!</Br></div></a>
   <div style="clear: both"></div>
-  <a href="dolaczdonas" class="tilelink2">
+  <a href="dolaczd-nas.html" class="tilelink2">
    <div class="tile4">
    <i class="icon-flight"></i> <Br>Dołącz do nas!</Br></div>
    </a>
 
  </div>
  <div class="square">
- <div class="tile5">
-	 <b>Możesz skontaktować się z nami mailowo, albo poprzez poniższy formularz:</b> <br>
+	 <div class="tile5">Witamy na naszej stronie!<Br/><Br/>
+	 Losowa ciekawostka związana z lotnictwem: <br> <br>
 
-	 <form class="" action="thankyou.html" method="post">
-		<br> <input type="text" name="imie" placeholder="Wpisz swoje imię..." required> <br> <br>
-		 <input type="text" name="temat" placeholder="W jakiej sprawie do nas piszesz? " required> <br> <br>
-		 <input type="text" name="mail: " placeholder="Wprowadź swój adres mailowy" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required> <br> <br>
-		 <input type="text" name="tresc" placeholder="Wprowadź tekst wiadomości. Minimum 10 znaków!" > <br> <br>
-		 <input type="checkbox" name="rodo" class="rodo" required> Wyrażam zgodę na przetwarzanie danych osobych zgodnie z <a href="rodo.html" class="rodo"><b>polityką prywatności</b></a> <br>
-		 <input type="submit" name="przycisk" value="Wyślij">
-	 </form>
+	 <script>
+
+	Array.prototype.random = function(limit)
+	{
+		if (typeof limit == 'undefined' || limit < 0) limit = 1;
+		else if (!limit) limit = this.length;
+		for (var i = 0, source = this, target = new Array(), n = source.length; i < limit && n > 0; i++)
+		{
+			do { var index = Math.random(); } while (index == 1);
+			index = Math.floor(index * n);
+			target.push(source[index]);
+			source[index] = source[--n];
+		}
+		return target;
+	}
+
+	document.write(new Array(
 
 
- </div>
+	'W 1987 linie American Airlines zaoszczędziły 40 tys. dolarów poprzez usunięcie oliwy z oliwek w pierwszej klasie',
+	'Na lotnisku Chicago OHare samolot ląduje lub startuje co 37 sekund',
+	'Pierwsza odprawa online została przeprowadzona w 1999 roku przez Alaska Airlines',
+	'Rodzina samolotów Boeing 747 przewiozła łącznie 5.6 miliarda ludzi co stanowi 80% światowej populacji',
+	'Piloci na zmianę odwiedzają toaletę',
+	'Pilotom nie wolno nosić brody',
+	'Maska tlenowa wystarczy jedynie na 15 minut',
+	'Wieku samolotu nie liczy się w latach',
+	'Piloci nie jedzą tego samego posiłku',
+	'Najdłuższy lot trwa 17 godzin i 45 minut i zaczyna się w stolicy Kataru a kończy w Auckland w Nowej Zelandii',
+	'Najkrótszy lot jest lot ze szkockiej wyspy Westray na wyspę Papa Westray, trwa zaledwie 2 minuty',
+	'Do 1961 roku porywanie samolotów nie bylo uregulowane prawnie',
+	'Concorde 7 lutego 1996 roku wykonał najszybszy lot transatlantycki z londyńskiego Heathrow do nowojorskiego JFK. Pokonanie tej trasy zajęło mu 2 godziny 52 minuty i 59 sekund.',
+	'Wysokość wpływa na krew w taki sposób, że alkohol spożyty w trakcie lotu odczuwamy zdecydowanie bardziej.',
+	'Największym samolotem na świecie jest Antonov An-225 Mrija',
+	'Podczas startu i lądowania światła w samolocie są przyciemniane',
+	'Boeing 747 jest wykonany z prawie 6 milionów części',
+	'Zaledwie 5% całej populacji leciało kiedykolwiek samolotem'
+
+
+	).random(1).join(''));
+
+	</script>
+	 </div>
  <div class="yt"><a href="https://youtube.com" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
  </div>
  <div class="fb"><a href="https://facebook.com" target="_blank" class="sociallink"><i class="icon-facebook"></i></a>

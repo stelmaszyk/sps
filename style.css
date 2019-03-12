@@ -115,6 +115,15 @@ background-size: auto;
 {
 	background-color: #cc3a10;
 }
+
+.tile4_inactive {
+	margin: 10px;
+	width: 480px;
+	height: 142px;
+	background-color: grey;
+	text-align: center;
+	font-size: 45px;
+}
 .tile5
 {
 	font-family: 'Josefin Sans', sans-serif;
@@ -125,6 +134,11 @@ background-size: auto;
 	background-color: rgba(63, 63, 63, 0.5);
 	color: white;
 
+}
+
+a.dolacz {
+	text-decoration: underline;
+	color: white;
 }
 
 input {
