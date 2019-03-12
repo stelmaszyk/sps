@@ -1,2 +1,2 @@
 # sps
-Poznan Spotters Website
+# Poznan Spotters Website Development
