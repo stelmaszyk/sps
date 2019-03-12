@@ -1,0 +1,13 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#container {
+  width: 1920px;
+  height: 1080px;
+  background-color: rgba(0, 4, 38, 0.8);
+
+}

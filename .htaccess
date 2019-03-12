@@ -10,4 +10,4 @@ RewriteRule kim-jestesmy kimjestesmy.html
 RewriteRule galeria galeria.html
 RewriteRule kontakt kontakt.html
 RewriteRule dolacz-do-nas dolaczdonas.html
-RewriteRule czlonkowstwo codajeczlonkowstwo.html
+RewriteRule czlonkostwo czlonkostwo.html

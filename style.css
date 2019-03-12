@@ -1,10 +1,18 @@
 body
 {
-background-color: #303030;
-color: #ffffff;
-font-family: 'Lato', sans-serif;
+background-image: url("background.jpg");
+background-repeat: no-repeat;
+background-size: auto;
+}
 
-
+#imagebg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 4, 38, 0.9);
+	z-index: 10;
 }
 #container
 {
@@ -12,8 +20,8 @@ font-family: 'Lato', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 }
-	
-	
+
+
 
 .rectangle1
 {
@@ -21,17 +29,17 @@ font-family: 'Lato', sans-serif;
 	margin: 20px;
 	text-align: center;
 	Font-size: 50px;
-	
-	
+	color: white;
+
 }
 .square
 {
 	width: 50%;
 	float: left;
 	Font-size: 20px;
-	
-	
-	
+
+
+
 
 #logo
 {
@@ -39,14 +47,16 @@ font-family: 'Lato', sans-serif;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 150px;
 	width: 600px;
-	
-	
+
+
 }
-#zegar
+.zegar
 {
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
+	font-style: normal;
+	color: white;
 }
 }
 .tile1
@@ -57,7 +67,7 @@ font-family: 'Lato', sans-serif;
 	background-color: #3095d3;
 	float: left;
 	text-align: center;
-	
+
 }
 .tile1:hover
 {
@@ -98,8 +108,8 @@ font-family: 'Lato', sans-serif;
 	background-color: #ee5a32;
 	text-align: center;
 	font-size: 45px;
-	
-	
+
+
 }
 .tile4:hover
 {
@@ -107,12 +117,30 @@ font-family: 'Lato', sans-serif;
 }
 .tile5
 {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: justify;
 	margin: 10px;
 	width: 480px;
 	height: 304px;
-	background-color: #666666;
-	
+	background-color: rgba(63, 63, 63, 0.5);
+	color: white;
+
 }
+
+input {
+	width: 75%;
+}
+
+input.rodo {
+	/* coś tutaj */
+	width: 5%;
+}
+
+a.rodo {
+	color: red;
+	cursor: grab;
+}
+
 .yt
 {
 	margin: 10px;
@@ -167,9 +195,33 @@ font-family: 'Lato', sans-serif;
 	width: 960px;
 	margin: 20px;
 	text-align: center;
-	
-	
+
+
 }
+.rectangle2 {
+	color: white;
+	text-align: center;
+}
+
+a.mailto:link {
+	text-decoration: underline;
+	color: white;
+}
+
+a.mailto:hover {
+	color: red;
+	cursor: grab;
+}
+
+a.mailto:active {
+	color: red;
+	cursor: grab;
+}
+
+a.mailto:visited {
+	color: silver;
+}
+
 a.tilelink
 {
 	color: #ffffff;
@@ -180,7 +232,7 @@ a.tilelink2
 {
 	color: #ffffff;
 	text-decoration: none;
-	
+
 }
 a.sociallink
 {
@@ -188,7 +240,7 @@ a.sociallink
 	text-decoration: none;
      width: 105px;
 	 height: 142px;
-	
+
 }
 a.sociallink2
 {
@@ -196,5 +248,5 @@ a.sociallink2
 	text-decoration: none;
      width: 105px;
 	 height: 142px;
-	
+
 }
