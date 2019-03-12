@@ -1,0 +1,13 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule EPPO-spotters spotters.html
+RewriteRule kim-jestesmy kimjestesmy.html
+RewriteRule galeria galeria.html
+RewriteRule kontakt kontakt.html
+RewriteRule dolacz-do-nas dolaczdonas.html
+RewriteRule czlonkowstwo codajeczlonkowstwo.html
