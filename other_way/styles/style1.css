@@ -1,13 +1,6 @@
 body{
   margin: 0;
   font-family: segoe UI;
-
-}
-
-.containter_main{
-  background-image: url('./bg/dpm.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .header-area{
@@ -15,7 +8,7 @@ body{
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px;
-  /* color: #FFF; */
+  color: #FFF;
 }
 
 .container{
@@ -30,23 +23,12 @@ body{
 
 .header-area p{
   margin-bottom: 60px;
-  font-size: 20px;
-}
-
-.header-area a{
-  color: #FFF;
-  border: 1px solid transparent;
-  text-decoration: none;
-}
-
-.header-area a:hover{
-  border: 1px solid #FFF;
+  font-size: 14px;
 }
 
 .header-area h1{
   font-size: 40px;
   text-transform: uppercase;
-  color: #FFF;
 }
 
 .header-area a i{
@@ -59,14 +41,9 @@ body{
   border-radius: 50%;
 }
 
-.desc {
-  color: #FFF;
-}
-
-
-
 .about{
-  padding: 30px 0;
+  padding: 30% 0;
+  background-image: url('./../images/background/background.png');
   background-size: cover;
 }
 
@@ -84,7 +61,7 @@ body{
   width: 31.33%;
   float: left;
   margin: 0 1%;
-  color: #FFF;
+  overflow: hiden;
 }
 
 .col h3{
@@ -93,7 +70,6 @@ body{
 }
 
 .portfolio {
-
   background-color: #2C323C;
   padding: 40px 0;
   color: white;
@@ -191,18 +167,23 @@ body{
 .gallery {
   background-image: url('./../image/background/background.png');
   background-size: cover;
-  padding: 30px 0;
+  padding: 10px 0;
+  text-align: center;
+  color: rgb(0, 99, 198);
 }
 
 .gallery h2 {
   text-transform: uppercase;
-  text-align: center;
   font-size: 40px;
-  color: rgb(0, 99, 198);
 }
+
+.gallery h3 {
+  font-style: italic;
+
+}
+
 .gallery p {
-  text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .zdjecia .col {
