@@ -1,8 +1,10 @@
 body{
   margin: 0;
   font-family: segoe UI;
-  /* overflow: hidden; */
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
 }
+
 
 
 .header-area{
@@ -29,7 +31,7 @@ body{
 
 .container{
   margin: auto;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .space {
@@ -66,6 +68,8 @@ body{
   border-radius: 50%;
 }
 
+
+
 .header-area a:hover i:hover{
   color:  rgba(78, 85, 119, 0.85);
   font-size: 35px;
@@ -94,10 +98,6 @@ body{
   position: relative;
 }
 
-
-
-
-
 .content a i{
   color: rgb(159, 172, 230);
   font-size: 35px;
@@ -109,20 +109,16 @@ body{
   bottom: 0;
 }
 
-
-
 .content a:hover i:hover{
-  color:  rgba(78, 85, 119, 0.85);
+  color:  #FFF;
   font-size: 35px;
   height: 40px;
   width: 40px;
   padding: 6px 6px;
   border: 4px solid  rgba(78, 85, 119, 0.85);
   border-radius: 50%;
-  background-color: #FFF;
+  background-color: rgba(78, 85, 119, 0.85);
 }
-
-
 
 .about h2{
   font-size: 40px;
@@ -131,11 +127,26 @@ body{
 
 
 
+.wdol{
+  margin-top: 500px;
+}
+
+.wdol h3{
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
 .col{
   width: 31.33%;
   float: left;
   margin: 0 1%;
   overflow: hiden;
+  text-align: justify;
+
+}
+
+.col h2{
+  text-align: center;
 }
 
 .col h3{
@@ -143,39 +154,83 @@ body{
   text-transform: uppercase;
 }
 
+.col1{
+  width: 31.33%;
+  float: left;
+  margin: 0 1%;
+  overflow: hiden;
+  text-align: justify;
+}
+
+.col1 h3{
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.col1 h2{
+  text-align: center;
+}
+
 .portfolio {
   background-color: #2C323C;
-  padding: 40px 0;
   color: white;
+}
+
+.portfolio .gora{
+  padding-top: 20px;
+  padding-bottom: 0;
 }
 
 .portfolio h2{
   text-align: center;
   text-transform: uppercase;
   font-size: 40px;
+
 }
 
 .portfolio a:link {
   color: rgb(218, 218, 218);
-  font-family: "Courier New";
   margin: 5px
 
 }
 
-.portfolio a:hover {
+.portfolio a i{
   color: #FFF;
-  border: 2px solid rgb(78, 85, 119);
-  border-radius: 25%;
-  padding: 5px;
+  font-size: 35px;
+  height: 40px;
+  width: 40px;
+  padding: 6px 6px;
+  border: 4px solid #FFF;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.portfolio a:hover i:hover {
+  color:  rgba(78, 85, 119, 0.85);
+  font-size: 35px;
+  height: 40px;
+  width: 40px;
+  padding: 6px 6px;
+  border: 4px solid  rgba(78, 85, 119, 0.85);
+  border-radius: 50%;
+  background-color: #FFF;
+  text-align: center;
+
+}
+
+.portfolio .container1{
+  margin-top: -25px;
 }
 
 
 .zajecia ul{
   text-align: center;
   list-style: none; /* wyłączam punktowanie */
-  margin: 0;
-  padding: 0;
-  margin-bottom: 40px;
+  margin: -15px;
+  padding-bottom: 10px;
+  /* margin-bottom: 40px; */
+  font-size: 25px;
 }
 
 .zajecia ul li {
@@ -189,10 +244,16 @@ body{
   text-transform: capitalize;
   border-bottom: 2px solid transparent;
   padding: 5px 0;
+
+
 }
 
 .zajecia ul li a:hover{
   /* border-bottom: 2px solid rgb(0, 99, 198); */
+  border: 2px solid rgb(78, 85, 119);
+  border-radius: 25%;
+  padding: 5px;
+    color: #FFF;
 }
 
 .col img {
@@ -243,7 +304,8 @@ body{
 .gallery {
   background-image: url('./../image/background/background.png');
   background-size: cover;
-  padding: 10px 0;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
   color: rgb(0, 99, 198);
 }
@@ -270,4 +332,49 @@ body{
 .gallery .button a{
   margin-top: 10px;
   display: inline-block;
+}
+
+/*------------------------------*/
+/* FORMULARZ DOŁĄCZENIA */
+
+.dolacz {
+  background-color: #2C323C;
+  padding: 20px;
+}
+
+.dolacz a i{
+  color: rgb(159, 172, 230);
+  font-size: 35px;
+  height: 40px;
+  width: 40px;
+  padding: 6px 6px;
+  border: 4px solid rgb(159, 172, 230);
+  border-radius: 50%;
+  bottom: 0;
+}
+
+.dolacz a:hover i:hover{
+  color:  rgba(78, 85, 119, 0.85);
+  font-size: 35px;
+  height: 40px;
+  width: 40px;
+  padding: 6px 6px;
+  border: 4px solid  #FFF;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+
+.container2 {
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.test {
+  border: 5px solid #FFF;
+  border-radius: 10px;
+  width: 640px;
+  text-align: center;
+  align-items: center;
 }
