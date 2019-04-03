@@ -374,7 +374,8 @@ body{
   font-size: 30px;
 }
 
-.test {
+.container2 .test {
+  display: inline-block;
   border: 5px solid #FFF;
   border-radius: 10px;
   width: 640px;
