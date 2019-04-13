@@ -441,3 +441,14 @@ body{
 .stopka {
   font-size: 15px;
 }
+.stopka h4 {
+  font-size: 12px;
+}
+.stopka a {
+  color: white;
+  text-decoration: underline;
+}
+.stopka a:hover{
+  color: white;
+  text-decoration: underline;
+}
