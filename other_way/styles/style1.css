@@ -33,11 +33,24 @@ body{
 
 .container{
   margin: auto;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .space {
-  padding: 50px;
+  padding: 30px;
+  align-items: center;
+}
+
+.ciekawostka {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #FFF;
+  border-radius: 20px;
+  width: 50%;
+  height: 120px;
+  background-color: rgba(78, 85, 119, 0.95);
+  margin: auto;
 }
 
 .header-area img{

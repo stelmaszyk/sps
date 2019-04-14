@@ -36,5 +36,5 @@ var ciekawostki = [
     var wylosowane = ciekawostki[rand];
     alert(wylosowane);
 }
-  setTimeout(losowaciekawostka, 500);
+
   document.innerHTML = "";
