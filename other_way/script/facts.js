@@ -37,10 +37,4 @@ function random_fact() {
   document.write(rand);
   console.log(rand);
 }
-//
-// function refresh(rand) {
-//   var container = document.getElementById('ciekawostka');
-//   var content = container.innerHTML;
-//   container.innerHTML = content;
-// }
 setInterval(random_fact(), 1000);
